@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/udslogo.png' | relative_url }}">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="{{ '/' | relative_url }}" class="brand">
+          <img src="{{ '/assets/images/udslogo.png' | relative_url }}" alt="LangLunches Logo" class="brand-logo">
+          <div class="brand-title">{{ site.title }}</div>
+        </a>
+        <nav class="nav-links">
+          <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">Home & Schedule</a>
+          <a href="{{ '/past-talks.html' | relative_url }}" class="{% if page.url == '/past-talks.html' %}active{% endif %}">Past Talks</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        LangLunches &middot; LST Department, Saarland University<br>
+        <span style="opacity: 0.6; font-size: 0.8rem;">Lunch is bring-your-own.</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

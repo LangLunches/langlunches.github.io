@@ -1,0 +1,74 @@
+---
+layout: default
+title: Home
+---
+<section class="section hero">
+  <div class="container hero-inner">
+    <div>
+      <h1>Informal research talks over lunch.</h1>
+      <p class="hero-lead">
+        A biweekly meetup for PhDs and postdocs in the LST department at UdS. One short presentation, followed by open discussion, collaboration, and socializing.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ site.join_link }}" target="_blank">Join Live Session</a>
+        <a class="btn btn-secondary" href="{{ site.schedule_link }}" target="_blank">Sign Up to Present (Sheet)</a>
+      </div>
+    </div>
+    
+    <div>
+      <h3 style="margin-bottom: 1rem; color: var(--text); font-size: 1.2rem;">Upcoming Schedule</h3>
+      
+      {% for talk in site.data.schedule.upcoming %}
+        <div class="card" style="margin-bottom: 1rem; border-left: 4px solid var(--accent); padding: 1.5rem;">
+          <div style="margin-bottom: 0.5rem;">
+            <span style="color: var(--accent-strong); font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em;">{{ talk.date }}</span>
+          </div>
+          <strong style="font-size: 1.1rem; color: #0f172a; display: block; line-height: 1.4; margin-bottom: 0.2rem;">
+            "{{ talk.title }}"
+          </strong>
+          <span style="color: var(--text-muted); font-size: 0.95rem;">
+            {% if talk.speaker == "Open Slot" %}
+              <a href="{{ site.schedule_link }}" target="_blank" style="color: var(--accent);">{{ talk.speaker }}</a>
+            {% else %}
+              by {{ talk.speaker }}
+            {% endif %}
+          </span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background: var(--surface); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+  <div class="container">
+    <div class="two-column">
+      <div>
+        <h2>When & Where</h2>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 0.5rem;"><strong>Time:</strong> Wednesdays 12:00 – 13:00 (Biweekly)</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Location:</strong> Building A2.2, Room 2.13</li>
+          <li><strong>Format:</strong> ~20 min talk, followed by Q&A and BYO Lunch.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>How to present</h2>
+        <p>
+          The talks are informal and flexible. You can present work-in-progress, recent preprints, or already-published papers. We're here to promote cross-group collaboration and share ideas, so come present your research or simply listen in!
+        </p>
+        <p>
+          To present, just drop your name and topic into any open slot on the <a href="{{ site.schedule_link }}" target="_blank" style="color: var(--accent);">shared Excel sheet</a>. We will update this website's schedule to match!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-box">
+      <h2>Questions or Ideas?</h2>
+      <p>If you have questions or suggestions , feel free to reach out to any of us!</p>
+      <a href="mailto:{{ site.organizer_aravind_email }}, {{ site.organizer_damiana_email }}, {{ site.organizer_yash_email }}">{{ site.organizer_aravind_name }}, {{ site.organizer_damiana_name }}, {{ site.organizer_yash_name }}</a>
+    </div>
+  </div>
+</section>

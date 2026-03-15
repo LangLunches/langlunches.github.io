@@ -1,0 +1,39 @@
+---
+layout: default
+title: Past Talks
+---
+<section class="section">
+  <div class="container">
+    <div style="max-width: 800px; margin: 0 auto;">
+      <h2 style="margin-bottom: 0.5rem;">Past Talks Archive</h2>
+      <p style="margin-bottom: 2rem;">A record of previous LangLunches presentations.</p>
+      
+      <div class="card" style="padding: 0; overflow: hidden;">
+        <table style="width: 100%; border-collapse: collapse; text-align: left;">
+          <thead>
+            <tr style="background: var(--surface-soft); border-bottom: 1px solid var(--border-subtle);">
+              <th style="padding: 1rem 1.5rem; color: var(--text-muted); font-weight: 600; font-size: 0.9rem;">Date</th>
+              <th style="padding: 1rem 1.5rem; color: var(--text-muted); font-weight: 600; font-size: 0.9rem;">Speaker</th>
+              <th style="padding: 1rem 1.5rem; color: var(--text-muted); font-weight: 600; font-size: 0.9rem;">Topic</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for talk in site.data.schedule.past %}
+              <tr style="border-bottom: 1px solid var(--border-subtle);">
+                <td style="padding: 1rem 1.5rem; font-size: 0.95rem; white-space: nowrap;">{{ talk.date }}</td>
+                <td style="padding: 1rem 1.5rem; font-size: 0.95rem; font-weight: 500;">{{ talk.speaker }}</td>
+                <td style="padding: 1rem 1.5rem; font-size: 0.95rem; color: var(--text-muted);">{{ talk.title }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        
+        {% if site.data.schedule.past.size == 0 %}
+          <div style="padding: 3rem; text-align: center; color: var(--text-muted);">
+            No past talks recorded yet. Check back soon!
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

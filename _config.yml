@@ -1,2 +1,16 @@
-name: ""
-title: null
+title: "LangLunches @ Language Science & Technology, Saarland University"
+description: "Biweekly informal lunches in the Language Science & Technology department at Saarland University."
+
+# Live session link (Zoom/Teams)
+join_link: "https://teams.microsoft.com/meet/31885369625599?p=FDmlcFKEJoSXT5k8C9"
+
+# Link to the shared schedule/sign-up sheet (to edit)
+schedule_link: "https://unisaarlandde-my.sharepoint.com/:x:/g/personal/dapo007_uni-saarland_de/EWyz7u5z97dBuriO1U2Lt98BzAxUuZmYF12YV5dqMOzvKg?e=ilmHgO"
+
+# Contact information
+organizer_aravind_name: "Aravind Krishnan"
+organizer_aravind_email: "aravind.krishnan@lsv.uni-saarland.de"
+organizer_damiana_name: "Damiana Porcellato"
+organizer_damiana_email: "damiana.porcellato@uni-saarland.de"
+organizer_yash_name: "Yash Sarrof"
+organizer_yash_email: "ysarrof@lst.uni-saarland.de"

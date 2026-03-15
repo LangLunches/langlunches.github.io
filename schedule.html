@@ -1,0 +1,32 @@
+---
+layout: default
+title: Schedule & Past Talks
+---
+<section class="section">
+  <div class="container">
+    <h2>Schedule & Sign-ups</h2>
+    <p>
+      Find an open slot below and add your name, tentative title, and email to present. 
+      <strong>Past talks</strong> are also logged here for reference.
+    </p>
+    
+    <div style="margin-top: 2rem;">
+      <a class="btn btn-primary" href="{{ site.schedule_link }}" target="_blank">
+        Open Sign-up Sheet in New Tab
+      </a>
+    </div>
+
+    {% if site.schedule_embed_url and site.schedule_embed_url != '' %}
+      <div class="embed-wrapper">
+        <iframe class="embed-iframe" src="{{ site.schedule_embed_url }}" loading="lazy"></iframe>
+      </div>
+    {% else %}
+      <div class="card" style="margin-top: 2rem; text-align: center; padding: 4rem 2rem;">
+        <h3 style="margin-bottom: 0.5rem;">Sheet not embedded yet</h3>
+        <p style="margin: 0;">
+          Click the button above to view the schedule. (To show the sheet directly on this page, add the embed link to <code>schedule_embed_url</code> in your config).
+        </p>
+      </div>
+    {% endif %}
+  </div>
+</section>

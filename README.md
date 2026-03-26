@@ -13,7 +13,7 @@ Break 2: 15 - 20 minutes
 
 ## When and where?
 
-Wednesdays 12:00 - 13:00 (biweekly), Building A2.2, Room 2.13
+Tuesdays 12:00 - 13:00 (biweekly), Building C7.2, Room - 1.05
 
 ## Signing up to present
 

@@ -2,14 +2,7 @@
 
 Hi! Welcome to LangLunches: (informal) biweekly talks by PhDs and postdocs in the LST department at UdS, to promote collaboration and the exchange of ideas between the various groups in the department. 
 
-Every two weeks, two speakers give a ~10-15 minute talk on their recently-submitted or in-progress research, with time in between for lunch (bring-your-own-lunch), questions, and socializing:
-
-```
-Talk 1: 10 - 15 minutes
-Break 1: 15 - 20 minutes
-Talk 2: 10 - 15 minutes
-Break 2: 15 - 20 minutes
-```
+Every two weeks, speakers give a ~15-20 minute talk on their recently-submitted or in-progress research, with time in between for lunch (bring-your-own-lunch), questions, and socializing!
 
 ## When and where?
 

@@ -1,10 +1,10 @@
 upcoming:
   - date: "May 5, 2026"
-    speaker: "Open Slot"
-    title: "Available! Sign up in the shared sheet."
+    speaker: "Anisha Saha"
+    title: "MUStReason: A Benchmark for Diagnosing Pragmatic Reasoning in Video-LMs for Multimodal Sarcasm Detection"
   - date: "April 21, 2026"
-    speaker: "Open Slot"
-    title: "Available! Sign up in the shared sheet."
+    speaker: "Entang Wang"
+    title: "How Few-Shot Examples Add Up: A Causal Decomposition of Function Vectors in In-Context Learning."
 
 past:
   - date: "April 23, 2025"

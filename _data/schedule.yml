@@ -2,43 +2,33 @@ upcoming:
   - date: "May 5, 2026"
     speaker: "Anisha Saha"
     title: "MUStReason: A Benchmark for Diagnosing Pragmatic Reasoning in Video-LMs for Multimodal Sarcasm Detection"
-  - date: "April 21, 2026"
+  - date: "May 05, 2026"
+    speaker: "John Vojtěch"
+    title: "Morphemology-informed Tokenization and LLM Surprisal: A Multilingual Assessment of Psycholinguistic Correlates (provisional title)"
+    
+
+past:
+  - date: "April 21st, 2026"
     speaker: "Entang Wang"
     title: "How Few-Shot Examples Add Up: A Causal Decomposition of Function Vectors in In-Context Learning."
 
-past:
-  - date: "April 23, 2025"
-    speaker: "Sasha Bakalova"
-    title: "Contextualize-then-Aggregate: Circuits for In-Context Learning in Gemma-2 2B"
+  - date: "July 16, 2025"
+    speaker: "Benedict Krieger"
+    title: "On the limits of LLM surprisal as a functional explanation of the N400 and P600"
+        
+
+  - date: "July 16, 2025"
+    speaker: "Yash Sarrof"
+    title: "Theory of Transformers"
+
+  - date: "July 1, 2025"
+    speaker: "Mayank Jobanaputra"
+    title: "Understanding Logic Proofs in the Age of LLMs: A Benchmark and Analysis"
     
-  - date: "April 23, 2025"
-    speaker: "Zena AL Khalili"
-    title: "Evaluating Intermediate Programs of Code-assisted LLMs for Mathematics"
-    
-  - date: "May 6, 2025"
-    speaker: "Sarubi Thillainathan"
-    title: "Controllable Text Adaptation Using In-context Learning with Linguistic Features"
-    
-  - date: "May 6, 2025"
-    speaker: "Alex Duchnowski"
-    title: "EHOP: A Dataset of Everday NP-Hard Optimization Problems"
-    
-  - date: "May 21, 2025"
-    speaker: "Damiana Porcellato"
-    title: "A semantic map of negation in Indo-European"
-    
-  - date: "May 21, 2025"
-    speaker: "Aravind Krishnan"
-    title: "Not all data are unlearned equally"
-    
-  - date: "June 3, 2025"
-    speaker: "Maja Stegenwallner"
-    title: "Design of the MultiplEYE multilingual eye-tracking study on natural reading"
-    
-  - date: "June 3, 2025"
-    speaker: "Soyoung Oh"
-    title: "Idiom Processing in LLMs"
-    
+  - date: "July 1, 2025"
+    speaker: "Yuekun Yao"
+    title: "language models can learn implicit multi-hop reasoning, but only if they have lots of training data"
+
   - date: "June 18, 2025"
     speaker: "Arianna Bienati"
     title: "An 'intuitive' notion of complexity? Fluctuation complexity in the making"
@@ -47,18 +37,34 @@ past:
     speaker: "Xin Tong"
     title: "Informal title: Dot by Dot - Neuroscientific approach to studying Human Perception"
     
-  - date: "July 1, 2025"
-    speaker: "Mayank Jobanaputra"
-    title: "Understanding Logic Proofs in the Age of LLMs: A Benchmark and Analysis"
+  - date: "June 3, 2025"
+    speaker: "Maja Stegenwallner"
+    title: "Design of the MultiplEYE multilingual eye-tracking study on natural reading"
     
-  - date: "July 1, 2025"
-    speaker: "Yuekun Yao"
-    title: "language models can learn implicit multi-hop reasoning, but only if they have lots of training data"
+  - date: "June 3, 2025"
+    speaker: "Soyoung Oh"
+    title: "Idiom Processing in LLMs"
+
+  - date: "May 21, 2025"
+    speaker: "Damiana Porcellato"
+    title: "A semantic map of negation in Indo-European"
     
-  - date: "July 16, 2025"
-    speaker: "Benedict Krieger"
-    title: "On the limits of LLM surprisal as a functional explanation of the N400 and P600"
+  - date: "May 21, 2025"
+    speaker: "Aravind Krishnan"
+    title: "Not all data are unlearned equally"
     
-  - date: "July 16, 2025"
-    speaker: "Yash Sarrof"
-    title: "Theory of Transformers"
+  - date: "May 6, 2025"
+    speaker: "Alex Duchnowski"
+    title: "EHOP: A Dataset of Everday NP-Hard Optimization Problems"
+
+  - date: "May 6, 2025"
+    speaker: "Sarubi Thillainathan"
+    title: "Controllable Text Adaptation Using In-context Learning with Linguistic Features"
+
+  - date: "April 23, 2025"
+    speaker: "Zena AL Khalili"
+    title: "Evaluating Intermediate Programs of Code-assisted LLMs for Mathematics"
+
+  - date: "April 23, 2025"
+    speaker: "Sasha Bakalova"
+    title: "Contextualize-then-Aggregate: Circuits for In-Context Learning in Gemma-2 2B"

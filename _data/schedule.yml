@@ -1,13 +1,18 @@
 upcoming:
-  - date: "May 5, 2026"
-    speaker: "Anisha Saha"
-    title: "MUStReason: A Benchmark for Diagnosing Pragmatic Reasoning in Video-LMs for Multimodal Sarcasm Detection"
   - date: "May 19, 2026"
     speaker: "John Vojtěch"
     title: "Morphemology-informed Tokenization and LLM Surprisal: A Multilingual Assessment of Psycholinguistic Correlates (provisional title)"
+  - date: "June 2, 2026"
+    speaker: "Ekaterina Shepel"
+    title: "TBD"
+
     
 
 past:
+  - date: "May 5, 2026"
+    speaker: "Anisha Saha"
+    title: "MUStReason: A Benchmark for Diagnosing Pragmatic Reasoning in Video-LMs for Multimodal Sarcasm Detection"
+
   - date: "April 21st, 2026"
     speaker: "Entang Wang"
     title: "How Few-Shot Examples Add Up: A Causal Decomposition of Function Vectors in In-Context Learning."

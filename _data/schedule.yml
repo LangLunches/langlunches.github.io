@@ -1,14 +1,19 @@
 upcoming:
-  - date: "May 19, 2026"
-    speaker: "John Vojtěch"
-    title: "Morphemology-informed Tokenization and LLM Surprisal: A Multilingual Assessment of Psycholinguistic Correlates (provisional title)"
+  - date: "June 16, 2026"
+    speaker: "Sofia Aguilar"
+    title: "Reflections on scientific publishing"
+
   - date: "June 2, 2026"
-    speaker: "Ekaterina Shepel"
-    title: "TBD"
+    speaker: "Katya Shepel"
+    title: "How studying laryngeal articulations is relevant for typologically non-related languages"
 
     
 
 past:
+  - date: "May 19, 2026"
+    speaker: "John Vojtěch"
+    title: "Morphemology-informed Tokenization and LLM Surprisal: A Multilingual Assessment of Psycholinguistic Correlates"
+
   - date: "May 5, 2026"
     speaker: "Anisha Saha"
     title: "MUStReason: A Benchmark for Diagnosing Pragmatic Reasoning in Video-LMs for Multimodal Sarcasm Detection"

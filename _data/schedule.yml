@@ -3,13 +3,16 @@ upcoming:
     speaker: "Sofia Aguilar"
     title: "Reflections on scientific publishing"
 
+  - date: "June 30, 2026"
+    speaker: "Michael Sullivan"
+    title: "GRPO is secretly a Process Reward Model"
+
+
+past:
   - date: "June 2, 2026"
     speaker: "Katya Shepel"
     title: "How studying laryngeal articulations is relevant for typologically non-related languages"
 
-    
-
-past:
   - date: "May 19, 2026"
     speaker: "John Vojtěch"
     title: "Morphemology-informed Tokenization and LLM Surprisal: A Multilingual Assessment of Psycholinguistic Correlates"

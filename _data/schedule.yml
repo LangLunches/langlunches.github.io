@@ -1,7 +1,7 @@
 upcoming:
-  - date: "June 16, 2026"
-    speaker: "Sofia Aguilar"
-    title: "Reflections on scientific publishing"
+  - date: "July 14, 2026"
+    speaker: "Carla Olabe Rodriguez"
+    title: "Entropic Properties of Spoken vs Written Languages"
 
   - date: "June 30, 2026"
     speaker: "Michael Sullivan"
@@ -9,6 +9,10 @@ upcoming:
 
 
 past:
+  - date: "June 16, 2026"
+    speaker: "Sofia Aguilar"
+    title: "Reflections on scientific publishing"
+
   - date: "June 2, 2026"
     speaker: "Katya Shepel"
     title: "How studying laryngeal articulations is relevant for typologically non-related languages"

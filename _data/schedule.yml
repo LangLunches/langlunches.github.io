@@ -1,14 +1,18 @@
 upcoming:
+  - date: "August 25, 2026"
+    speaker: "Mohammadali Mohammadkhani"
+    title: "Analysing Hidden Reasoning in LLMs"
+
+  - date: "August 11, 2026"
+    speaker: "Oliver Kraus"
+    title: "Barriers to Universal Reasoning in Transformers and How to Overcome Them"
+
+
+past:
   - date: "July 28, 2026"
     speaker: "Aravind Krishnan"
     title: "A closer look at the Modality Gap in Multimodal LLMs"
 
-  - date: "August 11, 2026"
-    speaker: "Could be you"
-    title: "About anything you want, please sign up :)"
-
-
-past:
   - date: "July 14, 2026"
     speaker: "Carla Olabe Rodriguez"
     title: "Entropic Properties of Spoken vs Written Languages"

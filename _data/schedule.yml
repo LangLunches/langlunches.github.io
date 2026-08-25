@@ -1,4 +1,14 @@
 upcoming:
+  - date: "September 8, 2026"
+    speaker: "Zena Al-Khalili"
+    title: "Fork-Think with Confidence"
+
+  - date: "September 22, 2026"
+    speaker: "Iza Škrjanec"
+    title: "Is Cross-Lingual Transfer in Bilingual Models Human-Like? A Study with Overlapping Word Forms in Dutch and English"
+
+
+past:
   - date: "August 25, 2026"
     speaker: "Mohammadali Mohammadkhani"
     title: "Analysing Hidden Reasoning in LLMs"
@@ -7,8 +17,6 @@ upcoming:
     speaker: "Oliver Kraus"
     title: "Barriers to Universal Reasoning in Transformers and How to Overcome Them"
 
-
-past:
   - date: "July 28, 2026"
     speaker: "Aravind Krishnan"
     title: "A closer look at the Modality Gap in Multimodal LLMs"
